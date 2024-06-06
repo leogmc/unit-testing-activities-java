@@ -17,6 +17,7 @@ package com.example.atividades.atividade15;
 */
 
 //snippet-start:[rekognition.java2.detect_text.import]
+
 import software.amazon.awssdk.auth.credentials.ProfileCredentialsProvider;
 import software.amazon.awssdk.core.SdkBytes;
 import software.amazon.awssdk.regions.Region;
@@ -85,13 +86,13 @@ public class DetectTextImage {
 	
 	     } catch (RekognitionException | FileNotFoundException e) {
 	         System.out.println(e.getMessage());
-	         System.exit(1);
+	           //  System.exit(1); Essa linha foi comentada pois estava encerrando a execução do programa durante os testes, impossibilitando a cobertura completa dos testes
 	     } finally {
 	    	 rekClient.close();
 		}
 	 }
 	 
-	 private void saveResultToTextFile(List<TextDetection> textCollection, String fileName) {
+	 void saveResultToTextFile(List<TextDetection> textCollection, String fileName) {
 			try (BufferedWriter writer = new BufferedWriter(new FileWriter(fileName))) {
 				for (TextDetection text : textCollection) {
 					writer.write("Detected: " + text.detectedText() + "\n");

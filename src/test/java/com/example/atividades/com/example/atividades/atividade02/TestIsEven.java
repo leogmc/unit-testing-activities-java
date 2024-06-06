@@ -4,8 +4,6 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import org.junit.jupiter.api.Test;
 
-import com.example.atividades.atividade02.IsEven;
-
 public class TestIsEven {
     private final IsEven atividade = new IsEven();
 

@@ -2,9 +2,6 @@ package com.example.atividades.atividade04;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.Test;
-
-import com.example.atividades.atividade04.SortNumbers;
-
 import java.util.Arrays;
 import java.util.List;
 

@@ -1,0 +1,6 @@
+Detected: Sample Text
+Confidence: 95.5
+Id: 1
+Parent Id: 0
+Type: WORD
+

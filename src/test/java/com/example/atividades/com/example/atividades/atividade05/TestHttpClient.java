@@ -3,9 +3,6 @@ package com.example.atividades.atividade05;
 import static org.mockito.Mockito.*;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.Test;
-
-import com.example.atividades.atividade05.HttpClient;
-
 import okhttp3.*;
 
 import java.io.IOException;

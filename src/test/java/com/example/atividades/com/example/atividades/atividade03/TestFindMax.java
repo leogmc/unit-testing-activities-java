@@ -4,8 +4,6 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNull;
 import org.junit.jupiter.api.Test;
 
-import com.example.atividades.atividade03.FindMax;
-
 import java.util.Arrays;
 import java.util.List;
 
